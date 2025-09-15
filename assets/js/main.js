@@ -1,0 +1,108 @@
+wow = new WOW({
+  boxClass: 'wow', // default
+  animateClass: 'animated', // default
+  offset: 0, // default
+  mobile: true, // default
+  live: true // default
+})
+wow.init();
+/*=============== SHOW MENU ===============*/
+const navMenu = document.getElementById('nav-menu'),
+  navToggle = document.getElementById('nav-toggle'),
+  navClose = document.getElementById('nav-close')
+
+/*===== MENU SHOW =====*/
+/* Validate if constant exists */
+if (navToggle) {
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.add('show-menu')
+  })
+}
+
+/*===== MENU HIDDEN =====*/
+/* Validate if constant exists */
+if (navClose) {
+  navClose.addEventListener('click', () => {
+    navMenu.classList.remove('show-menu')
+  })
+}
+
+/*=============== REMOVE MENU MOBILE ===============*/
+const navLink = document.querySelectorAll('.nav__link')
+
+const linkAction = () => {
+  const navMenu = document.getElementById('nav-menu')
+  // When we click on each nav__link, we remove the show-menu class
+  navMenu.classList.remove('show-menu')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
+
+/*=============== CHANGE BACKGROUND HEADER ===============*/
+const scrollHeader = () => {
+  const header = document.getElementById('header')
+  // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
+  this.scrollY >= 50 ? header.classList.add('scroll-header')
+    : header.classList.remove('scroll-header')
+}
+window.addEventListener('scroll', scrollHeader)
+
+
+function base_url(string) {
+  return base_url + string;
+}
+
+var base_url = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+if (base_url == "index.php") {
+  $("#home").addClass("active");
+}
+if (base_url == "about-us.php") {
+  $("#about").addClass("active");
+}
+if (base_url == "contact-us.php") {
+  $("#contact").addClass("active");
+}
+if (base_url == "faqs.php") {
+  $("#faq").addClass("active");
+}
+
+var swiper = new Swiper(".banner-slider", {
+  effect: "fade",
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+var swiper = new Swiper(".reviews-slider", {
+  // slidesPerView: 1,
+  spaceBetween: 30,
+  speed: 1000,
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    1240: {
+      slidesPerView: 4,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+    991: {
+      slidesPerView: 2,
+    },
+    540: {
+      slidesPerView: 1,
+    }
+  }
+});
