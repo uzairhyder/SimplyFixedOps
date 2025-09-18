@@ -11,7 +11,7 @@
                     <a href="javascript:void(0)" class="nav__link">Account</a>
                 </li>
                 <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__link">About Us</a>
+                    <a href="about-us.php" class="nav__link">About Us</a>
                 </li>
             </ul>
             <ul class="nav__list">

@@ -18,7 +18,7 @@
 
      <!-- Start Header -->
 
-     <header class="header-banner header">
+     <header class="header-banner">
         <div class="swiper banner-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -225,7 +225,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="savings-box s-box">
+                    <div class="savings-box">
                         <img src="./assets/images/shop.svg" class="img-fluid" alt="">
                         <div class="title">
                             <h4>Click & Shop</h4>

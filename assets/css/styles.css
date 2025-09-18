@@ -331,6 +331,16 @@ i.bx.bx-x {
   min-width: 85px;
   display: inline-block;
   text-align: center;
+  transition: 0.5s all ease-in-out;
+}
+
+.t-lists ul li span:hover {
+  background-color: #ffffff;
+  color: #FB7125;
+}
+
+.scroll-header .t-lists ul li span {
+  box-shadow: 0 2px 10px rgb(225 225 225 / 13%);
 }
 
 .header-banner {
@@ -566,6 +576,8 @@ button.v-button:hover {
   position: relative;
   margin-bottom: 24px;
   border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
   background:
     linear-gradient(#222222, #222222) padding-box,
     linear-gradient(to bottom, #ffffffa6, #565656) border-box;
@@ -573,7 +585,7 @@ button.v-button:hover {
   background-clip: padding-box, border-box;
 }
 
-.s-box {
+.savings-box:hover {
   border: 1px solid transparent;
   background:
     linear-gradient(#222222, #222222) padding-box,
@@ -867,6 +879,352 @@ button.l-button:hover {
   text-align: end;
 }
 
+.about-us-banner {
+  background-image: url('./../images/about-us-bg.png');
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 142px;
+}
+
+.about-us-heading {
+  padding-top: 115px;
+}
+
+.about-us-heading h1 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-us-heading .breadcrumb li {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+}
+
+.about-us-heading .breadcrumb li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.about-us-heading .breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
+
+.about-us-heading .breadcrumb-item+.breadcrumb-item::before {
+    padding: 0px 24px;
+    color: #FB7125;
+}
+
+.founder,
+.a-mission {
+  background-color: #111111;
+}
+
+.founder-details h2,
+.our-mission-details h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'satoshi-medium';
+  margin-bottom: 12px;
+}
+
+.our-mission-details h2 {
+  margin-bottom: 24px;
+}
+
+.founder-details h5 {
+  color: #FB7125;
+  font-size: 24px;
+  font-family: 'satoshi-medium';
+  margin-bottom: 12px;
+}
+
+.founder-details p span,
+.our-mission-details p span {
+  font-family: 'satoshi-medium';
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.founder-details p,
+.our-mission-details p {
+  font-family: 'dm-sans-regular';
+  color: #ffffff;
+}
+
+.founder-details .get-started,
+.our-mission-details .get-started {
+  margin-top: 32px;
+}
+
+.founder-image img,
+.our-mission-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our-mission {
+  padding: 80px 0px;
+}
+
+.trust-vendors {
+  background-color: #111111;
+}
+
+.trust-vendors-details {
+  text-align: center;
+}
+
+.trust-vendors-details h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'satoshi-medium';
+  margin-bottom: 24px;
+}
+
+.trust-vendors-details p {
+   font-family: 'dm-sans-regular';
+   color: #ffffff;
+}
+
+.trust-vendors-details p span {
+  font-style: italic;
+  font-family: 'dm-sans-medium';
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.trust-vendors-banner {
+  background-image: url('./../images/about-us-bg.png');
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 142px;
+}
+
+.trust-vendors-heading {
+  padding-top: 80px;
+}
+
+.trust-vendors-heading h1 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.trust-vendors-heading p {
+  font-family: 'dm-sans-regular';
+   color: #ffffff;
+}
+
+.vendor-partners-heading h2 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 40px;
+}
+
+.vendor-partners-details {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.vendor-partners-details img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 32px;
+}
+
+.vendor-partners-details span {
+  cursor: pointer;
+  font-family: 'satoshi-medium';
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #4B4B4B;
+}
+
+.vendor-partners-details h3 {
+  font-family: 'satoshi-medium';
+  font-size: 32px;
+  color: #ffffff;
+  margin: 24px 0px;
+}
+
+.vendor-partners-details p {
+  font-family: 'dm-sans-semibold';
+  font-size: 18px;
+  color: #FB7125;
+}
+
+.vendor-partners-details p a {
+  color: #FB7125;
+}
+
+.vendor-partners-details p svg {
+  margin-left: 10px;
+}
+
+.support-banner {
+  background-image: url('./../images/about-us-bg.png');
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 142px;
+}
+
+.support-heading {
+  padding-top: 115px;
+}
+
+.support-heading h1 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.support-heading .breadcrumb li {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+}
+
+.support-heading .breadcrumb li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.support-heading .breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
+
+.support-heading .breadcrumb-item+.breadcrumb-item::before {
+    padding: 0px 24px;
+    color: #FB7125;
+}
+
+.need-support {
+  background-color: #111111;
+}
+
+.need-support-details h2 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 40px;
+}
+
+.social-details {
+  margin-top: 48px;
+}
+
+.social-box {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.social-icon i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #FB7125;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-info p span {
+  color: #ffffff;
+  font-family: 'satoshi-regular';
+  font-size: 16px;
+}
+
+.social-info p {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.social-info p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.need-support-form label {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 18px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.c-input-field {
+  width: 100%;
+  border: 1px solid #222222;
+  background-color: #222222;
+  border-radius: 10px;
+  padding: 14px 16px;
+  outline: none;
+  color: #ffffff;
+  font-family: 'satoshi-regular';
+  font-size: 16px;
+}
+
+.n-text {
+  color: #EEEEEE;
+  font-size: 14px;
+  font-family: 'satoshi-regular';
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.c-input-message {
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  resize: none;
+  border: 1px solid #222222;
+  background-color: #222222;
+  border-radius: 10px;
+  padding: 14px 16px;
+  outline: none;
+  color: #ffffff;
+  font-family: 'satoshi-regular';
+  font-size: 16px;
+}
+
+.need-support-form h3 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+
+
+
+
+
+
+
+
+
 footer.footer {
   width: 100%;
   background-color: #111111;
@@ -1096,6 +1454,18 @@ button.btn-subscribe:hover {
   .deal-details span.up-text {
     font-size: 24px;
   }
+  .founder-details h2,
+  .our-mission-details h2 {
+    font-size: 36px;
+  }
+  .founder-details p,
+  .our-mission-details p {
+    font-size: 14px;
+  }
+  .founder-details .get-started,
+  .our-mission-details .get-started {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1240,6 +1610,47 @@ button.btn-subscribe:hover {
   .s-buttons {
     display: none;
   }
+  .about-us-banner,
+  .support-banner,
+  .trust-vendors-banner {
+    height: 620px;
+  }
+  .about-us-heading,
+  .support-heading,
+  .trust-vendors-heading,
+  .vendor-partners-heading,
+  .vendor-partners-details {
+    text-align: center;
+  }
+  .about-us-heading .breadcrumb,
+  .support-heading .breadcrumb {
+      justify-content: center;
+  }
+  .founder-details {
+    margin-top: 36px;
+    text-align: center;
+  }
+  .our-mission-details {
+    margin-bottom: 36px;
+    text-align: center;
+  }
+  .need-support-details {
+    text-align: center;
+  }
+  .social-box {
+    flex-direction: column;
+    justify-content: center;
+}
+.social-icon {
+  margin: auto;
+}
+.need-support-form .btn-subscribe {
+  display: block;
+  margin: auto;
+}
+.need-support-form h3 {
+  text-align: center;
+}
 }
 
 @media only screen and (max-width: 768px) {}
@@ -1285,6 +1696,31 @@ button.btn-subscribe:hover {
   .deal {
     padding-bottom: 20px;
   }
+
+   .about-us-banner,
+   .support-banner,
+   .trust-vendors-banner {
+        background-position: 56%;
+    }
+    .about-us-heading h1,
+    .support-heading h1,
+    .trust-vendors-heading h1,
+    .vendor-partners-heading h2,
+    .need-support-details h2,
+    .need-support-form h3 {
+        font-size: 36px;
+    }
+
+    .trust-vendors-heading {
+    padding-top: 60px;
+}
+.trust-vendors-details h2 {
+  font-size: 36px;
+}
+
+.vendor-partners-details {
+    margin-top: 32px;
+}
 
 }
 
@@ -1335,6 +1771,14 @@ button.btn-subscribe:hover {
   .c-padding {
     padding: 0px !important;
   }
+
+  .founder-details {
+    margin-left: 24px;
+  }
+
+  .our-mission-details {
+    margin-right: 24px;
+}
 
 
 }

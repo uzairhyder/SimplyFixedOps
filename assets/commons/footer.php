@@ -48,10 +48,10 @@
                     </div>
                     <div class="page-links">
                         <ul>
-                            <li><a href="javascript:void(0)">About Us</a></li>
-                            <li><a href="javascript:void(0)">Vendor Partners</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="vendor-partners.php">Vendor Partners</a></li>
                             <li><a href="javascript:void(0)">SF Ops Shop</a></li>
-                            <li><a href="javascript:void(0)">Suggest an Idea</a></li>
+                            <li><a href="suggest-an-idea.php">Suggest an Idea</a></li>
                         </ul>
                     </div>
                 </div>
