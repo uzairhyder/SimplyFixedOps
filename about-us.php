@@ -117,7 +117,7 @@
         </div>
         <div class="container">
             <div class="b-heading">
-                <a href="javascript:void(0)"><button class="l-button" type="button">Learn More About Us</button></a>
+                <a href="about-us.php"><button class="l-button" type="button">Learn More About Us</button></a>
                 <p>We combine real-world experience with smart tech to serve the people who keep the world moving: you.</p>
             </div>
         </div>

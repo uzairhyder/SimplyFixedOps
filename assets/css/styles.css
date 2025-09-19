@@ -193,6 +193,7 @@ nav .container {
 
 .nav__link img {
   width: 300px;
+  margin-left: 148px;
 }
 
 .nav__item a.active {
@@ -911,12 +912,12 @@ button.l-button:hover {
 }
 
 .about-us-heading .breadcrumb-item+.breadcrumb-item {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .about-us-heading .breadcrumb-item+.breadcrumb-item::before {
-    padding: 0px 24px;
-    color: #FB7125;
+  padding: 0px 24px;
+  color: #FB7125;
 }
 
 .founder,
@@ -988,8 +989,8 @@ button.l-button:hover {
 }
 
 .trust-vendors-details p {
-   font-family: 'dm-sans-regular';
-   color: #ffffff;
+  font-family: 'dm-sans-regular';
+  color: #ffffff;
 }
 
 .trust-vendors-details p span {
@@ -1022,7 +1023,7 @@ button.l-button:hover {
 
 .trust-vendors-heading p {
   font-family: 'dm-sans-regular';
-   color: #ffffff;
+  color: #ffffff;
 }
 
 .vendor-partners-heading h2 {
@@ -1106,12 +1107,12 @@ button.l-button:hover {
 }
 
 .support-heading .breadcrumb-item+.breadcrumb-item {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .support-heading .breadcrumb-item+.breadcrumb-item::before {
-    padding: 0px 24px;
-    color: #FB7125;
+  padding: 0px 24px;
+  color: #FB7125;
 }
 
 .need-support {
@@ -1129,9 +1130,9 @@ button.l-button:hover {
 }
 
 .social-box {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 24px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
 }
 
 .social-icon i {
@@ -1177,6 +1178,7 @@ button.l-button:hover {
 
 .c-input-field {
   width: 100%;
+  height: 58px;
   border: 1px solid #222222;
   background-color: #222222;
   border-radius: 10px;
@@ -1197,8 +1199,8 @@ button.l-button:hover {
 
 .c-input-message {
   width: 100%;
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 160px;
+  max-height: 160px;
   resize: none;
   border: 1px solid #222222;
   background-color: #222222;
@@ -1217,12 +1219,134 @@ button.l-button:hover {
   margin-bottom: 48px;
 }
 
+.faqs-details .faq-question {
+  cursor: pointer;
+  position: relative;
+}
+
+.faqs-details .faq-icon {
+  position: absolute;
+  right: 16px;
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.faqs-details .faq-icon::before {
+  content: '+';
+  font-size: 40px;
+  color: #FB7125;
+}
+
+.faqs-details .faq-header[aria-expanded="true"] .faq-icon::before {
+  content: '-';
+  font-size: 50px;
+  color: #FB7125;
+  top: -34px;
+  position: absolute;
+  right: 0px;
+}
+
+.faqs-details .accordion-button::after,
+.faqs-details .accordion-button:not(.collapsed)::after {
+  background-image: unset;
+}
+
+.faqs-details {
+  margin-top: 24px;
+}
+
+.faqs-details .accordion-button {
+  color: #ffffff !important;
+  font-family: 'satoshi-medium';
+  font-size: 20px;
+  background-color: #111111 !important;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.faqs-details .accordion-body p {
+  margin-bottom: 0px;
+  color: #ffffff !important;
+  font-family: 'dm-sans-regular';
+}
+
+.faqs-details .accordion-item {
+  background-color: #111111 !important;
+  margin-bottom: 24px;
+  border-radius: 10px !important;
+}
+
+.faqs-details .accordion-button:not(.collapsed) {
+  background-color: #111111 !important;
+  border-radius: 10px;
+  box-shadow: unset;
+}
+
+.faqs-details .accordion-item:first-of-type .accordion-button,
+.faqs-details .accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 10px;
+}
+
+.faqs-details .accordion-header {
+  background-color: #111111 !important;
+  border-radius: 10px;
+}
+
+.faqs-details .accordion-button:focus {
+  box-shadow: unset;
+}
+
+.faqs-details .accordion-body {
+  padding: 20px;
+}
+
+.privacy-policy-heading h1 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.privacy-policy-banner {
+  padding-top: 143px;
+  height: 450px;
+  align-content: center;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(17, 17, 17, 0.99) 0%, rgba(34, 34, 34, 1) 100%);
+}
 
 
+.privacy-policy-details h2 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  margin-bottom: 16px;
+  font-size: 36px;
+}
 
+.privacy-policy-details h3 {
+  color: #ffffff;
+  font-family: 'satoshi-medium';
+  margin-bottom: 16px;
+  font-size: 26px;
+}
 
+.privacy-policy-details p {
+  color: #ffffff;
+  font-family: 'dm-sans-regular';
+  margin-bottom: 22px;
+}
 
+.privacy-policy-details ul {
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
 
+.privacy-policy-details ul li {
+  color: #ffffff;
+  font-family: 'dm-sans-regular';
+  list-style: disc;
+  margin: 8px 0px;
+}
 
 
 footer.footer {
@@ -1448,20 +1572,25 @@ button.btn-subscribe:hover {
   .header-heading h1 {
     font-size: 50px;
   }
+
   .c-text p {
     font-size: 14px;
   }
+
   .deal-details span.up-text {
     font-size: 24px;
   }
+
   .founder-details h2,
   .our-mission-details h2 {
     font-size: 36px;
   }
+
   .founder-details p,
   .our-mission-details p {
     font-size: 14px;
   }
+
   .founder-details .get-started,
   .our-mission-details .get-started {
     margin-top: 20px;
@@ -1610,47 +1739,62 @@ button.btn-subscribe:hover {
   .s-buttons {
     display: none;
   }
+
   .about-us-banner,
   .support-banner,
   .trust-vendors-banner {
     height: 620px;
   }
+
   .about-us-heading,
   .support-heading,
   .trust-vendors-heading,
   .vendor-partners-heading,
-  .vendor-partners-details {
+  .vendor-partners-details,
+  .privacy-policy {
     text-align: center;
   }
+
   .about-us-heading .breadcrumb,
   .support-heading .breadcrumb {
-      justify-content: center;
+    justify-content: center;
   }
+
   .founder-details {
     margin-top: 36px;
     text-align: center;
   }
+
   .our-mission-details {
     margin-bottom: 36px;
     text-align: center;
   }
+
   .need-support-details {
     text-align: center;
   }
+
   .social-box {
     flex-direction: column;
     justify-content: center;
-}
-.social-icon {
-  margin: auto;
-}
-.need-support-form .btn-subscribe {
-  display: block;
-  margin: auto;
-}
-.need-support-form h3 {
-  text-align: center;
-}
+  }
+
+  .social-icon {
+    margin: auto;
+  }
+
+  .need-support-form .btn-subscribe {
+    display: block;
+    margin: auto;
+  }
+
+  .need-support-form h3 {
+    text-align: center;
+  }
+
+  .privacy-policy-details ul li {
+    list-style: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {}
@@ -1697,30 +1841,41 @@ button.btn-subscribe:hover {
     padding-bottom: 20px;
   }
 
-   .about-us-banner,
-   .support-banner,
-   .trust-vendors-banner {
-        background-position: 56%;
-    }
-    .about-us-heading h1,
-    .support-heading h1,
-    .trust-vendors-heading h1,
-    .vendor-partners-heading h2,
-    .need-support-details h2,
-    .need-support-form h3 {
-        font-size: 36px;
-    }
+  .about-us-banner,
+  .support-banner,
+  .trust-vendors-banner {
+    background-position: 56%;
+  }
 
-    .trust-vendors-heading {
+  .about-us-heading h1,
+  .privacy-policy-heading h1,
+  .support-heading h1,
+  .trust-vendors-heading h1,
+  .vendor-partners-heading h2,
+  .need-support-details h2,
+  .need-support-form h3 {
+    font-size: 36px;
+  }
+
+  .trust-vendors-heading {
     padding-top: 60px;
-}
-.trust-vendors-details h2 {
-  font-size: 36px;
-}
+  }
 
-.vendor-partners-details {
+  .trust-vendors-details h2 {
+    font-size: 36px;
+  }
+
+  .vendor-partners-details {
     margin-top: 32px;
-}
+  }
+
+  .privacy-policy-details h2 {
+    font-size: 32px;
+  }
+
+  .privacy-policy-details h3 {
+    font-size: 22px;
+  }
 
 }
 
@@ -1778,7 +1933,7 @@ button.btn-subscribe:hover {
 
   .our-mission-details {
     margin-right: 24px;
-}
+  }
 
 
 }

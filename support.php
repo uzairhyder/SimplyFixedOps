@@ -113,6 +113,62 @@
         </div>
      </section>
 
+     <section class="faqs">
+        <div class="container">
+            <div class="c-heading">
+                <h3>FAQS</h3>
+                <button class="btn-subscribe" type="button">Still Need Help?</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="faqs-details">
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button faq-header" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                                How do I purchase your products?
+                                <span class="faq-icon"></span>
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>If you are not satisfied with our products, please contact us.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed faq-header" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+                                What is your return policy?
+                                <span class="faq-icon"></span>
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>If you are not satisfied with our products, please contact us.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed faq-header" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false">
+                                Do you ship your products?
+                                <span class="faq-icon"></span>
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>If you are not satisfied with our products, please contact us.</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
      <!-- End Section -->
 
      <!-- Start Footer -->

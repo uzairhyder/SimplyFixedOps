@@ -30,7 +30,7 @@
                                     <span>Cash Back on Everything Your Service Department Needs</span>
                                     <h1>Turn Everyday<br /> Orders Into Rewards</h1>
                                     <div class="buttons">
-                                        <a href="javascript:void(0)">
+                                        <a href="about-us.php">
                                             <button class="get-started" type="button">Learn About Cash Back</button>
                                         </a>
                                         <a href="tel:5733564245">
@@ -51,7 +51,7 @@
                                     <span>Cash Back on Everything Your Service Department Needs</span>
                                     <h1>Turn Everyday<br /> Orders Into Rewards</h1>
                                     <div class="buttons">
-                                        <a href="javascript:void(0)">
+                                        <a href="about-us.php">
                                             <button class="get-started" type="button">Learn About Cash Back</button>
                                         </a>
                                         <a href="tel:5733564245">
@@ -72,7 +72,7 @@
                                     <span>Cash Back on Everything Your Service Department Needs</span>
                                     <h1>Turn Everyday<br /> Orders Into Rewards</h1>
                                     <div class="buttons">
-                                        <a href="javascript:void(0)">
+                                        <a href="about-us.php">
                                             <button class="get-started" type="button">Learn About Cash Back</button>
                                         </a>
                                         <a href="tel:5733564245">
@@ -93,7 +93,7 @@
                                     <span>Cash Back on Everything Your Service Department Needs</span>
                                     <h1>Turn Everyday<br /> Orders Into Rewards</h1>
                                     <div class="buttons">
-                                        <a href="javascript:void(0)">
+                                        <a href="about-us.php">
                                             <button class="get-started" type="button">Learn About Cash Back</button>
                                         </a>
                                         <a href="tel:5733564245">
@@ -250,7 +250,7 @@
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="learn-button">
-                        <a href="javascript:void(0)"><button class="l-button" type="button">Learn About Cash Back</button></a>
+                        <a href="about-us.php"><button class="l-button" type="button">Learn About Cash Back</button></a>
                     </div>
                 </div>
             </div>
@@ -509,7 +509,7 @@
         </div>
         <div class="container">
             <div class="b-heading">
-                <a href="javascript:void(0)"><button class="l-button" type="button">Learn More About Us</button></a>
+                <a href="about-us.php"><button class="l-button" type="button">Learn More About Us</button></a>
                 <p>We combine real-world experience with smart tech to serve the people who keep the world moving: you.</p>
             </div>
         </div>

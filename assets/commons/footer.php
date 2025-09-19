@@ -98,9 +98,9 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="policy-links copy-right">
-                    <p><a href="javascript:void(0)">Privacy Policy</a></p>
+                    <p><a href="privacy-policy.php">Privacy Policy</a></p>
                     <p><a href="javascript:void(0)">|</a></p>
-                    <p><a href="javascript:void(0)">Terms of Service</a></p>
+                    <p><a href="terms-of-service.php">Terms of Service</a></p>
                 </div>
             </div>
         </div>
