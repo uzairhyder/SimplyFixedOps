@@ -64,9 +64,9 @@
                     <div class="page-links">
                         <ul>
                             <li><a href="javascript:void(0)">Forum</a></li>
-                            <li><a href="javascript:void(0)">Contact Us</a></li>
+                            <li><a href="suggest-an-idea.php">Contact Us</a></li>
                             <li><a href="javascript:void(0)">Cart</a></li>
-                            <li><a href="javascript:void(0)">My Account</a></li>
+                            <li><a href="simplyfixedops-dashboard/dashboard.php">My Account</a></li>
                         </ul>
                     </div>
                 </div>

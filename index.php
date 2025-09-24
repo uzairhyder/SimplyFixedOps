@@ -107,6 +107,14 @@
                 </div>
             </div>
         </div>
+        <div class="h-social-links">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://pk.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></i></a></li>
+            </ul>
+        </div>
      </header>
 
      <!-- End Header -->

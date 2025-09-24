@@ -243,22 +243,23 @@ button.get-started {
   border-radius: 40px;
   font-family: 'dm-sans-semibold';
   color: #ffffff;
-  border: 1px solid transparent;
+  background-color: #FB7125;
+  box-shadow: 0 14px 40px #fb71258a;
+  position: relative;
+  /* border: 1px solid transparent;
   background:
     linear-gradient(#FB7125, #FB7125) padding-box,
     linear-gradient(to bottom, #ffffff, #FB7125) border-box;
   background-origin: border-box;
-  background-clip: padding-box, border-box;
-  box-shadow: 0 14px 40px #fb71258a;
+  background-clip: padding-box, border-box; */
   transition: all 0.3s ease-in-out;
   font-size: 16px;
-  position: relative;
 }
 
 button.get-started::before {
   position: absolute;
   content: '';
-  top: 8px;
+  top: 9px;
   right: 10px;
   z-index: 1;
   width: 42px;
@@ -359,6 +360,44 @@ i.bx.bx-x {
   width: 100%;
   height: 680px;
   object-fit: cover;
+}
+
+.h-social-links {
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    z-index: 1;
+}
+
+.h-social-links ul {
+  margin-bottom: 0px;
+}
+
+.h-social-links ul li {
+    color: #ffffff;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    margin: 12px 0px;
+    transition: 0.5s all ease-in-out;
+}
+
+.h-social-links ul li:hover {
+    color: #FB7125;
+    border: 1px solid #FB7125;
+}
+
+.h-social-links ul li a {
+  color: #ffffff;
+    transition: 0.5s all ease-in-out;
+}
+
+.h-social-links ul li:hover a {
+    color: #FB7125;
 }
 
 .header-heading:first-child {
@@ -1348,6 +1387,54 @@ button.l-button:hover {
   margin: 8px 0px;
 }
 
+.nav__item.wallet {
+    position: relative;
+}
+
+.wallet__dropdown {
+    position: absolute;
+    top: 100%;
+    top: 32px;
+    left: -50px;
+    background-color: #222222;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgb(225 225 225 / 13%);
+    padding: 8px 0;
+    font-family: 'dm-sans-regular';
+    color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 10;
+    min-width: 130px;
+}
+
+.wallet-dropdown-details {
+  text-align: center;
+}
+
+.wallet-dropdown-details p {
+  margin-bottom: 0px;
+}
+
+.wallet__dropdown div {
+    display: block;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+/* .wallet__dropdown div:hover {
+    background-color: #333;
+} */
+
+.nav__item.wallet:hover .wallet__dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
 
 footer.footer {
   width: 100%;
@@ -1875,6 +1962,10 @@ button.btn-subscribe:hover {
 
   .privacy-policy-details h3 {
     font-size: 22px;
+  }
+
+  .h-social-links {
+    display: none;
   }
 
 }

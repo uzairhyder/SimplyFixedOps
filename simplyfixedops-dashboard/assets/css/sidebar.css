@@ -1,0 +1,266 @@
+
+.heading h2 {
+    margin-bottom: 0px;
+}
+
+select:focus {
+    border: 1px solid #ff702a !important;
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0px !important;
+    list-style-type: none;
+    padding: 0px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.dashboard {
+    width: 100%;
+}
+
+/* Start side-bar Css */
+
+.side-bar {
+    /*background-color: #ff702a;*/
+    /* background-color: #ff702a; */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 106px, rgb(255 112 42) 106px);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+}
+
+.logo {
+    margin: 24px auto;
+    height: 63px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.logo-for-lap {
+    height: 63px;
+    width: 150px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.logo img,
+.logo-for-lap img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pages-names {
+    margin-top: 50px;
+}
+
+.pages-names ul li a {
+    color: #ffffff;
+    font-family: "poppins-regular";
+    font-size: 15px;
+    padding: 12px;
+    margin: 12px 24px;
+    display: block;
+    transition: all ease 0.5s;
+    border: 1px solid transparent;
+}
+
+.pages-names ul li a i {
+    margin-right: 8px;
+    color: #f8ff87;
+}
+
+.pages-names ul li a:hover {
+    border: 1px solid #f1f786;
+    border-radius: 6px;
+}
+
+a.page-name.active {
+    border: 1px solid #f1f786;
+    border-radius: 6px;
+}
+
+.pages-names ul li a:focus {
+    color: #ffffff !important;
+}
+
+.page {
+    margin-left: 250px;
+}
+
+.row-for-logo-and-ham-burger {
+    background-color: #ff702a;
+    padding: 22px 12px;
+    position: fixed;
+    width: 100%;
+}
+
+.row-for-heading-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-for-heading-btn {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 20px;
+}
+
+.row-for-heading-btn .heading h2 {
+    font-family: "poppins-medium";
+    font-size: 25px;
+    color: #ff702a;
+}
+
+.ham-burger {
+    display: none;
+}
+
+.row-for-logo-and-ham-burger.mainNavbarClass {
+    z-index: 5;
+}
+
+
+/* Set the color of the labels (text) to white */
+.pages-names ul li a.page-name {
+    color: white;
+}
+
+/* Change the color of the labels to black and background to white on hover */
+.pages-names ul li a.page-name:hover {
+    color: black;
+    background-color:#ff702a;;
+}
+
+/* Ensure the icons also change color on hover */
+.pages-names ul li a.page-name:hover i {
+    color: black;
+}
+
+/* Optionally, you can add some padding and transition for better UX */
+.pages-names ul li a.page-name {
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* End side-bar Css */
+
+@media (max-width: 991px) {
+    
+    .side-bar {
+        background-color: #ff702a !important;
+        background: unset;
+    }
+
+    .ham-burger {
+        display: block;
+        z-index: 1;
+    }
+
+    .ham-open {
+        background-color: #ffffff;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+    .ham-close {
+        background-color: #ffffff;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+    .ham-open i {
+        font-size: 22px;
+        color: #ff702a;
+    }
+
+    .ham-close i {
+        font-size: 22px;
+        color: #ff702a;
+    }
+
+
+    .ham-close {
+        display: none;
+    }
+
+    .side-bar {
+        width: 100%;
+        left: -100%;
+        transition: left ease 0.5s;
+    }
+
+    .logo-for-lap {
+        opacity: 1;
+    }
+
+    .page {
+        margin-left: 0px;
+    }
+
+    .page {
+        padding: 30px 24px;
+    }
+
+    .logo-and-ham-burger {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 24px;
+    }
+
+    .logo {
+        margin: 0px;
+        height: 63px;
+        width: 150px;
+        overflow: hidden;
+    }
+   
+    .row-for-logo-and-ham-burger {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        padding: 16px 24px;
+        background-color: #ff702a;
+        z-index: 1;
+        transition: all ease 0.3s;
+    }
+
+    .mainNavbarClass {
+        box-shadow: 0px 5px 8px #00000066;
+    }
+
+}

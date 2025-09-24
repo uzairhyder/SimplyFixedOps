@@ -8,7 +8,7 @@
 
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__link">Account</a>
+                    <a href="simplyfixedops-dashboard/dashboard.php" class="nav__link">Account</a>
                 </li>
                 <li class="nav__item">
                     <a href="about-us.php" class="nav__link">About Us</a>
@@ -23,10 +23,10 @@
             </ul>
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__link">Get in touch</a>
+                    <a href="suggest-an-idea.php" class="nav__link">Get in touch</a>
                 </li>
                 <li class="nav__item">
-                    <a href="hjavascript:void(0)" class="nav__link">Help</a>
+                    <a href="support.php" class="nav__link">Help</a>
                 </li>
                 <li class="nav__item">
                     <a href="javascript:void(0)" class="nav__link">
@@ -42,15 +42,21 @@
                         </svg>
                     </a>
                 </li>
-                <li class="nav__item">
+                <li class="nav__item wallet">
                     <a href="javascript:void(0)" class="nav__link">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.5385 3.69231H3.23077C2.93462 3.69231 2.69231 3.45 2.69231 3.15385C2.69231 2.85769 2.93462 2.61538 3.23077 2.61538H14C14 1.72692 13.2731 1 12.3846 1H2.69231C1.20615 1 0 2.20615 0 3.69231V13.3846C0 14.2731 0.726923 15 1.61538 15H14.5385C15.4269 15 16.1538 14.2731 16.1538 13.3846V5.30769C16.1538 4.41923 15.4269 3.69231 14.5385 3.69231ZM12.9231 10.4231C12.3292 10.4231 11.8462 9.94008 11.8462 9.34615C11.8462 8.75223 12.3292 8.26923 12.9231 8.26923C13.517 8.26923 14 8.75223 14 9.34615C14 9.94008 13.517 10.4231 12.9231 10.4231Z" fill="white"/>
                         </svg>
                     </a>
+                    <div class="wallet__dropdown">
+                        <div class="wallet-dropdown-details">
+                            <h6>My Wallet</h6>
+                            <p>$100</p>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__link">
+                    <a href="simplyfixedops-dashboard/dashboard.php" class="nav__link">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 0.000488281C3.58218 0.000488281 0 3.58197 0 8.00014C0 12.4183 3.58183 15.9998 8 15.9998C12.4185 15.9998 16 12.4183 16 8.00014C16 3.58197 12.4185 0.000488281 8 0.000488281ZM8 2.39248C8.70178 2.39243 9.37483 2.67116 9.87109 3.16736C10.3674 3.66356 10.6462 4.33658 10.6462 5.03835C10.6463 5.74013 10.3675 6.41318 9.87134 6.90944C9.37514 7.40571 8.70213 7.68453 8.00035 7.68458C7.29857 7.68463 6.62552 7.40589 6.12926 6.90969C5.633 6.4135 5.35417 5.74048 5.35412 5.0387C5.35408 4.33693 5.63281 3.66387 6.12901 3.16761C6.62521 2.67135 7.29822 2.39252 8 2.39248ZM7.99824 13.9082C6.59639 13.9098 5.24023 13.4097 4.175 12.4984C4.05103 12.3926 3.95147 12.2612 3.88316 12.1133C3.81485 11.9653 3.77942 11.8043 3.77932 11.6414C3.77932 10.1595 4.97865 8.97352 6.46086 8.97352H9.53984C11.0224 8.97352 12.2172 10.1595 12.2172 11.6414C12.2173 11.8043 12.182 11.9653 12.1137 12.1132C12.0454 12.2611 11.9459 12.3924 11.8218 12.4981C10.7567 13.4097 9.4003 13.91 7.99824 13.9082Z" fill="white"/>
                         </svg>
