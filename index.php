@@ -134,7 +134,7 @@
                         <div class="c-details">
                             <div class="title">
                                 <h4>Tools</h4>
-                                <a href="javascript:void(0)"><button class="c-button" type="button">🛠 Browse Tools</button></a>
+                                <a href="product.php"><button class="c-button" type="button">🛠 Browse Tools</button></a>
                             </div>
                         </div>
                         <div class="top-arrow">
@@ -151,7 +151,7 @@
                         <div class="c-details">
                             <div class="title">
                                 <h4>Parts</h4>
-                                <a href="javascript:void(0)"><button class="c-button" type="button">🔩 Shop Parts</button></a>
+                                <a href="product.php"><button class="c-button" type="button">🔩 Shop Parts</button></a>
                             </div>
                         </div>
                         <div class="top-arrow">
@@ -159,19 +159,19 @@
                         </div>
                     </div>
                     <div class="view-button">
-                        <a href="javascript:void(0)"><button class="v-button" type="button">Explore the Full Shop</button></a>
+                        <a href="product.php"><button class="v-button" type="button">Explore the Full Shop</button></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 a-content">
                     <div class="view-button v-all">
-                        <a href="javascript:void(0)"><button class="v-button" type="button">View all category</button></a>
+                        <a href="product.php"><button class="v-button" type="button">View all category</button></a>
                     </div>
                     <div class="category-box">
                         <img src="./assets/images/supplies.png" class="img-fluid" alt="">
                         <div class="c-details">
                             <div class="title">
                                 <h4>Supplies</h4>
-                                <a href="javascript:void(0)"><button class="c-button" type="button">View Supplies</button></a>
+                                <a href="product.php"><button class="c-button" type="button">📦 View Supplies</button></a>
                             </div>
                         </div>
                         <div class="top-arrow">
@@ -187,7 +187,7 @@
                         <div class="c-details a-details">
                             <div class="title">
                                 <h4>Apparel</h4>
-                                <a href="javascript:void(0)"><button class="c-button" type="button">👕 See Apparel</button></a>
+                                <a href="product.php"><button class="c-button" type="button">👕 See Apparel</button></a>
                             </div>
                         </div>
                         <div class="top-arrow a-arrow">
@@ -201,7 +201,7 @@
                         <div class="c-details a-details">
                             <div class="title">
                                 <h4>Limited Deals</h4>
-                                <a href="javascript:void(0)"><button class="c-button" type="button">🔥 Grab a Deal</button></a>
+                                <a href="product.php"><button class="c-button" type="button">🔥 Grab a Deal</button></a>
                             </div>
                         </div>
                         <div class="top-arrow a-arrow">
@@ -273,7 +273,7 @@
                         <span class="up-text">Up to 40% OFF, $100 Cashback, Buy 1 Get 1</span>
                         <h2>Labor Day Sale, Huge<br /> Savings, Limited Time Deal</h2>
                         <div class="buttons">
-                            <a href="javascript:void(0)">
+                            <a href="product.php">
                                 <button class="get-started" type="button">Grab This Deal</button>
                             </a>
                             <a href="javascript:void(0)">
@@ -482,7 +482,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="r-button">
-                        <a href="javascript:void(0)"><button class="l-button" type="button">View All Products</button></a>
+                        <a href="product.php"><button class="l-button" type="button">View All Products</button></a>
                     </div>
                 </div>
             </div>
@@ -523,7 +523,7 @@
         </div>
      </section>
 
-     <section class="stats">
+     <section class="stats s-stats">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
@@ -534,7 +534,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="stats-details">
-                        <h4>12,000+</h4>
+                        <h4>💼 12,000+</h4>
                         <p>Parts & Tools Listed</p>
                     </div>
                 </div>
@@ -565,6 +565,7 @@
      <!-- Swiper JS -->
      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
      <!-- Main JS -->
+     <script src="assets/js/home.js"></script>
      <script src="assets/js/main.js"></script>
 
  </body>

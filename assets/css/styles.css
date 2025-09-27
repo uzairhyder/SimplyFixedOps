@@ -363,10 +363,10 @@ i.bx.bx-x {
 }
 
 .h-social-links {
-    position: absolute;
-    right: 2%;
-    top: 40%;
-    z-index: 1;
+  position: absolute;
+  right: 2%;
+  top: 40%;
+  z-index: 1;
 }
 
 .h-social-links ul {
@@ -374,30 +374,30 @@ i.bx.bx-x {
 }
 
 .h-social-links ul li {
-    color: #ffffff;
-    font-size: 16px;
-    width: 35px;
-    height: 35px;
-    border: 1px solid #ffffff;
-    text-align: center;
-    align-content: center;
-    border-radius: 50%;
-    margin: 12px 0px;
-    transition: 0.5s all ease-in-out;
+  color: #ffffff;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  align-content: center;
+  border-radius: 50%;
+  margin: 12px 0px;
+  transition: 0.5s all ease-in-out;
 }
 
 .h-social-links ul li:hover {
-    color: #FB7125;
-    border: 1px solid #FB7125;
+  color: #FB7125;
+  border: 1px solid #FB7125;
 }
 
 .h-social-links ul li a {
   color: #ffffff;
-    transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .h-social-links ul li:hover a {
-    color: #FB7125;
+  color: #FB7125;
 }
 
 .header-heading:first-child {
@@ -734,7 +734,7 @@ button.l-button:hover {
   margin-top: 32px;
 }
 
-.stats {
+.s-stats {
   padding-top: 30px;
 }
 
@@ -1388,26 +1388,26 @@ button.l-button:hover {
 }
 
 .nav__item.wallet {
-    position: relative;
+  position: relative;
 }
 
 .wallet__dropdown {
-    position: absolute;
-    top: 100%;
-    top: 32px;
-    left: -50px;
-    background-color: #222222;
-    border-radius: 6px;
-    box-shadow: 0 2px 10px rgb(225 225 225 / 13%);
-    padding: 8px 0;
-    font-family: 'dm-sans-regular';
-    color: #ffffff;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: all 0.3s ease;
-    z-index: 10;
-    min-width: 130px;
+  position: absolute;
+  top: 100%;
+  top: 32px;
+  left: -50px;
+  background-color: #222222;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgb(225 225 225 / 13%);
+  padding: 8px 0;
+  font-family: 'dm-sans-regular';
+  color: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  z-index: 10;
+  min-width: 130px;
 }
 
 .wallet-dropdown-details {
@@ -1419,11 +1419,11 @@ button.l-button:hover {
 }
 
 .wallet__dropdown div {
-    display: block;
-    padding: 8px 16px;
-    color: white;
-    text-decoration: none;
-    transition: background 0.2s ease;
+  display: block;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.2s ease;
 }
 
 /* .wallet__dropdown div:hover {
@@ -1431,10 +1431,222 @@ button.l-button:hover {
 } */
 
 .nav__item.wallet:hover .wallet__dropdown {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
+
+.product-listing-heading h2 {
+  font-family: 'satoshi-bold';
+  color: #ffffff;
+  font-size: 34px;
+  position: relative;
+}
+
+.product-listing-heading h2::before {
+  position: absolute;
+  bottom: -16px;
+  left: 0px;
+  width: 90px;
+  height: 4px;
+  content: '';
+  background-color: #FB7125;
+}
+
+.select-box select.form-select {
+  width: 220px;
+  border: 1px solid #222222;
+  background-color: #222222;
+  border-radius: 12px;
+  padding: 12px 16px;
+  outline: none;
+  color: #fff;
+  font-family: 'dm-sans-regular';
+  font-size: 16px;
+}
+
+.select-box select.form-select:focus {
+  box-shadow: unset;
+}
+
+.product {
+  background-color: #111111;
+  padding: 60px 0px;
+}
+
+.product-card {
+  box-shadow: rgba(0, 0, 0, .2) 0px 6px 24px;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  margin: 12px 0px;
+  margin-bottom: 16px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #f7f7f7;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.product-card p {
+  font-family: 'dm-sans-regular';
+  color: #000000;
+  font-size: 16px;
+}
+
+.name-price-details {
+  padding: 16px 16px 22px 16px;
+}
+
+.name-price-details h4 {
+  font-family: 'satoshi-bold';
+  color: #FB7125;
+  margin-bottom: 0px;
+  font-size: 20px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
+.name-price-details h6 {
+  font-family: 'satoshi-medium';
+  color: #333333;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.name-price-details p {
+  font-family: 'dm-sans-regular';
+  color: #333333;
+  margin-bottom: 0px;
+  font-size: 16px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
+
+.buy-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buy-button button.btn-subscribe {
+  width: 175px;
+  height: 50px;
+  padding: 8px 24px 8px 8px;
+}
+
+.buy-button button.btn-subscribe:hover {
+  background: #222222;
+  color: #FB7125;
+}
+
+.product-details {
+  padding-top: 220px;
+  background-color: #111111;
+}
+
+.product-detail-image {
+  max-width: 640px;
+  height: 480px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.product-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-info-details {
+  margin-left: 16px;
+}
+
+.product-info-details .about-us-heading {
+  padding-top: 0px;
+  margin-bottom: 24px;
+}
+
+.product-info-details h2 {
+  color: #FB7125;
+  font-family: 'satoshi-bold';
+}
+
+.product-info-details h4 {
+  color: #ffffff;
+  font-family: 'satoshi-bold';
+  font-size: 28px;
+  margin: 22px 0px;
+}
+
+.product-info-details p {
+  color: #ffffff;
+  font-family: 'dm-sans-regular';
+}
+
+.buy-now button.btn-subscribe {
+  width: 180px;
+  margin-top: 6px;
+  padding: 8px 28px 8px 8px;
+}
+
+.count-button {
+  margin: 22px 0px;
+}
+
+.count-button .number span {
+  cursor: pointer;
+}
+
+.count-button .number {
+  background-color: transparent;
+  height: 50px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-around;
+  border: 2px solid #fb7125;
+}
+
+.count-button .minus,
+.count-button .plus {
+  border: none;
+  font-family: 'dm-sans-regular';
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.count-button .minus {
+  margin-left: 10px;
+}
+
+.count-button .plus {
+  margin-right: 10px;
+}
+
+.count-button input.count {
+  width: 60px;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  vertical-align: middle;
+  outline: none;
+  text-align: center;
+  font-family: 'dm-sans-regular';
+  background-color: transparent;
+}
+
+
+
+
+
 
 footer.footer {
   width: 100%;
@@ -1571,7 +1783,6 @@ button.btn-subscribe:hover {
   transition: 0.3s all ease-in-out;
 }
 
-
 .location-text a {
   text-decoration: none;
 }
@@ -1681,6 +1892,14 @@ button.btn-subscribe:hover {
   .founder-details .get-started,
   .our-mission-details .get-started {
     margin-top: 20px;
+  }
+
+  .product-info-details p {
+    font-size: 15px;
+  }
+
+  .name-price-details p {
+    -webkit-line-clamp: 2;
   }
 }
 
@@ -1882,6 +2101,19 @@ button.btn-subscribe:hover {
   .privacy-policy-details ul li {
     list-style: none;
   }
+
+  .product-details {
+    padding-top: 170px;
+  }
+
+  .product-detail-image {
+    margin-bottom: 32px;
+  }
+
+  .product-info-details {
+    margin-left: 0px;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {}
@@ -1968,9 +2200,34 @@ button.btn-subscribe:hover {
     display: none;
   }
 
+  .product-listing-heading h2::before {
+    display: none;
+  }
+
+  .product-listing-heading h2 {
+    font-size: 32px;
+  }
+
+  .product-card img {
+    height: 250px;
+  }
+
+  .product-detail-image {
+    max-width: 600px;
+    height: 400px;
+  }
+
+  .product-details {
+    padding-top: 150px;
+  }
+
 }
 
-@media only screen and (max-width: 430px) {}
+@media only screen and (max-width: 430px) {
+  .about-us-heading .breadcrumb li a {
+    font-size: 14px;
+  }
+}
 
 
 @media only screen and (min-width: 991px) {

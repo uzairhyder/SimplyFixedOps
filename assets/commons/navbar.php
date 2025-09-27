@@ -80,27 +80,27 @@
         <div class="t-lists">
             <ul>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="product.php">
                         <span>Tools</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="product.php">
                         <span>Parts</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="product.php">
                         <span>Supplies</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="product.php">
                         <span>Apparel</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="product.php">
                         <span>Limited Deals</span>
                     </a>
                 </li>

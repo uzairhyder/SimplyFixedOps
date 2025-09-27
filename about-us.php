@@ -56,7 +56,7 @@
                         <p>Cars have always been more than just a hobby for us—they’re in our blood. From an early age, I was immersed in the world of classic Mopars, working side by side with my father in the garage of our childhood home. It was there that my love for cars first took shape. My father, a dedicated technician and service professional, spent over three decades in the automotive industry. He ultimately retired in 2015 as the Service Director of a top 5 Ford dealership. His career was one of growth, learning, and unwavering commitment to the world of automobiles.</p>
                         <p>It’s that same spirit of opportunity and progression that inspired me to follow in his footsteps as a second-generation automotive professional. His guidance and knowledge helped me navigate my own career, which spanned 27 rewarding years in automotive dealerships—holding every position from Technician to National Consultant.</p>
                         <p>Along the way, I was lucky enough to lean on my father’s wealth of experience, especially when I stepped into management. He helped me find the best deals on shop supplies, tools, services, and more. Not everyone is fortunate enough to have that kind of support when starting out, and it was this realization that inspired me to create something bigger.</p>
-                        <a href="javascript:void(0)">
+                        <a href="about-us.php">
                             <button class="get-started" type="button">Connect With JD</button>
                         </a>
                     </div>
@@ -75,7 +75,7 @@
                         <p>Our mission is simple: to create a community where automotive professionals can find everything they need for Fixed Operations. Whether you're just starting out or a seasoned expert, we’re here to provide you with the tools, knowledge, and resources to succeed.</p>
                         <p>We're committed to continuously expanding our offerings—adding more products, insights, and support as we grow. Our goal is to be a go-to destination where you can find not only the right supplies and vendors but also valuable guidance to help you thrive in the ever-evolving automotive world.</p>
                         <p>Stay tuned—we’ve only just begun, and we’re excited to build this community with you.</p>
-                        <a href="javascript:void(0)">
+                        <a href="about-us.php">
                             <button class="get-started" type="button">Connect With JD</button>
                         </a>
                     </div>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="stats-details">
-                        <h4>12,000+</h4>
+                        <h4>💼 12,000+</h4>
                         <p>Parts & Tools Listed</p>
                     </div>
                 </div>
@@ -162,8 +162,6 @@
 
      <!-- End Footer -->
 
-     <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
      <!-- Main JS -->
      <script src="assets/js/main.js"></script>
 

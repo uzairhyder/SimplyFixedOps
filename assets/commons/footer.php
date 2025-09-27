@@ -33,10 +33,10 @@
                     </div>
                     <div class="page-links">
                         <ul>
-                            <li><a href="javascript:void(0)">Tools</a></li>
-                            <li><a href="javascript:void(0)">Parts</a></li>
-                            <li><a href="javascript:void(0)">Apparel</a></li>
-                            <li><a href="javascript:void(0)">Limited Deals</a></li>
+                            <li><a href="product.php">Tools</a></li>
+                            <li><a href="product.php">Parts</a></li>
+                            <li><a href="product.php">Apparel</a></li>
+                            <li><a href="product.php">Limited Deals</a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         <ul>
                             <li><a href="about-us.php">About Us</a></li>
                             <li><a href="vendor-partners.php">Vendor Partners</a></li>
-                            <li><a href="javascript:void(0)">SF Ops Shop</a></li>
+                            <li><a href="product.php">SF Ops Shop</a></li>
                             <li><a href="suggest-an-idea.php">Suggest an Idea</a></li>
                         </ul>
                     </div>
