@@ -2114,6 +2114,10 @@ button.btn-subscribe:hover {
     margin-left: 0px;
     text-align: center;
   }
+  
+  .count-button .number {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 768px) {}
