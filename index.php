@@ -468,7 +468,22 @@
         </div>
      </section>
 
-     <section class="stats">
+     <section class="mission">
+        <div class="container">
+            <div class="m-heading">
+                <p><i class="fa-solid fa-circle"></i> Built by Techs. Backed by Know-How.</p>
+                <h5>We’re not just another parts marketplace we’re a mission. Founded by career technicians, our platform puts power back in your hands. <span>Whether you're hunting deals, swapping service tips, or building your tool arsenal, this is your digital garage.</span></h5>
+            </div>
+        </div>
+        <div class="container">
+            <div class="b-heading">
+                <a href="about-us.php"><button class="l-button" type="button">Learn More About Us</button></a>
+                <p>We combine real-world experience with smart tech to serve the people who keep the world moving: you.</p>
+            </div>
+        </div>
+     </section>
+
+     <section class="stats s-stats">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
