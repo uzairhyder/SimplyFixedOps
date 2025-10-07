@@ -265,27 +265,6 @@
         </div>
      </section>
 
-     <section class="deal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="deal-details">
-                        <span class="up-text">Up to 40% OFF, $100 Cashback, Buy 1 Get 1</span>
-                        <h2>Labor Day Sale, Huge<br /> Savings, Limited Time Deal</h2>
-                        <div class="buttons">
-                            <a href="product.php">
-                                <button class="get-started" type="button">Grab This Deal</button>
-                            </a>
-                            <a href="javascript:void(0)">
-                                <button class="btn-call" type="button"><i>Promo Code: </i><span> LABORDAY</span></button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </section>
-
      <section class="reviews">
         <div class="container">
             <div class="s-heading">
@@ -489,41 +468,7 @@
         </div>
      </section>
 
-     <section class="mission">
-        <div class="container">
-            <div class="m-heading">
-                <p><i class="fa-solid fa-circle"></i> Built by Techs. Backed by Know-How.</p>
-                <h5>We’re not just another parts marketplace we’re a mission. Founded by career technicians, our platform puts power back in your hands. <span>Whether you're hunting deals, swapping service tips, or building your tool arsenal, this is your digital garage.</span></h5>
-            </div>
-        </div>
-        <div class="container-fluid c-padding">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="m-image">
-                        <img src="./assets/images/w-1.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="m-image">
-                        <img src="./assets/images/w-2.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="m-image">
-                        <img src="./assets/images/w-3.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="b-heading">
-                <a href="about-us.php"><button class="l-button" type="button">Learn More About Us</button></a>
-                <p>We combine real-world experience with smart tech to serve the people who keep the world moving: you.</p>
-            </div>
-        </div>
-     </section>
-
-     <section class="stats s-stats">
+     <section class="stats">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">

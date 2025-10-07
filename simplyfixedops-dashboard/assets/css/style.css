@@ -1092,6 +1092,10 @@ height: 50px ;
 color: #000000;
 }
 
+.c-signIn {
+  height: 100vh !important;
+}
+
 .signInBox {
 background-image: url('./../images/bottom-bg.jpg');
 height: 100%;
@@ -1101,6 +1105,7 @@ background-size: cover;
 position: relative;
 background-color: #ff702a;
 z-index: 1;
+align-content: center;
 }
 
 .signInBox::after {
@@ -1121,7 +1126,8 @@ opacity: 0.9;
 .signIn {
 justify-content: center;
 align-items: center;
-height: 100vh;
+height: 100%;
+padding: 50px 0px;
 display: flex;
 text-align: center;
 width: 100%;

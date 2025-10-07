@@ -10,7 +10,7 @@
 
         <div class="dashboard">
 
-            <div class="signInBox">
+            <div class="signInBox c-signIn">
                 <div class="row justify-content-center">
                     <div class="col-lg-5 col-md-12 col-sm-12">
 

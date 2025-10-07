@@ -49,26 +49,25 @@
                                                 </div>
                                                 <div class="col-lg-6 col-md-12 col-sm-12 position-relative">
                                                     <label for="">Bank Name</label>
-                                                    <input type="text" class="signField mb-3" id="old-password" placeholder="Enter bank name">
+                                                    <input type="text" class="signField mb-3" placeholder="Enter bank name">
                                                 </div>
 
                                                 <div class="col-lg-6 col-md-12 col-sm-12 position-relative">
                                                     <label for="">IBAN</label>
-                                                    <input type="text" class="signField mb-3" id="old-password" placeholder="Enter IBAN">
+                                                    <input type="text" class="signField mb-3" placeholder="Enter IBAN">
                                                 </div>
                                                 <div class="col-lg-6 col-md-12 col-sm-12 position-relative">
                                                     <label for="">Sort Code</label>
-                                                    <input type="text" class="signField mb-3" id="old-password" placeholder="Enter Sort Code">
+                                                    <input type="text" class="signField mb-3" placeholder="Enter Sort Code">
                                                 </div>
                                                 <div class="col-lg-6 col-md-12 col-sm-12 position-relative">
                                                     <label for="">Account Number</label>
-                                                    <input type="text" class="signField mb-3" id="old-password" placeholder="Enter Account Number">
+                                                    <input type="text" class="signField mb-3" placeholder="Enter Account Number">
                                                 </div>
 
                                                 <div class="col-lg-6 col-md-12 col-sm-12 position-relative">
                                                     <label for="">User Image</label>
-                                                    <input type="file" class="signField mb-3" id="new-password" placeholder="Enter Password">
-                                                    
+                                                    <input type="file" class="signField mb-3" placeholder="User Image">
                                                 </div>
 
                                                 <div class="col-lg-6 col-md-12 col-sm-12 position-relative">
